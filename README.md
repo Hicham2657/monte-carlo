@@ -11,12 +11,6 @@ My solutions to the lab sessions of the Monte Carlo methods course at Ensimag in
 | `03_importance_sampling.ipynb` | Importance sampling | Prices a discretely monitored down-and-out call. The Girsanov drift $\lambda$ is chosen by Newton's method on an empirical variance criterion, which narrows the 95% confidence interval by a factor of about 3 for the same number of paths. |
 | `04_sensitivities.ipynb` | Greeks by Monte Carlo | Computes the delta of a capped call, $(S_T-K)^+\mathbf 1_{\{S_T\le 1.3K\}}$, by finite differences with common random numbers and by the likelihood ratio method. |
 
-## Running
-
-```bash
-pip install numpy scipy matplotlib jupyter
-jupyter notebook
-```
 
 The exercise statements (énoncés) come from the course.
 
